@@ -29,11 +29,30 @@
     </style>
   </head>
 
-  <body class="roboto-regular">
+  <body class="roboto-regular container mx-auto">
     <!-- ---------------------header start-------------------->
     <header class="bg-[#FFFBF0] py-8">
       <!-- ---------------------navbar start-------------------->
-      <nav></nav>
+      <nav class="mx-auto max-w-7xl px-4 flex items-center justify-between">
+
+
+        <div class="w-80"> <img src="icons/logo.png" alt="">  </div>
+
+              <div>
+                <ul class="flex space-x-4 bebas-neue-regular text-2xl ">
+                  <li><a href="#" class="text-gray-600 hover:text-orange-400">Home</a></li>
+                  <li><a href="#" class="text-gray-600 hover:text-orange-400">Shop</a></li>
+                  <li><a href="#" class="text-gray-600 hover:text-orange-400">About</a></li>
+                  <li><a href="#" class="text-gray-600 hover:text-orange-400">Contact</a></li>
+                </ul>
+              
+              </div>
+
+
+
+
+
+      </nav>
       <!------------------navbar end-------------------------->
 
       <!------------------Banner start--------------------------->
@@ -48,7 +67,7 @@
           </h1>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+            Lorem Ipsum is simply dummy text of the <br> printing and typesetting
             industry.
           </p>
           <button
@@ -84,9 +103,9 @@
     <!-- -----------------header end------------------------- -->
     <!-- -----------------main start------------------------- -->
 
-    <main class="max-w-7xl mx-auto px-4">
+    <main class="">
       <!-- --------------------women section javcket--------------- -->
-      <section class="my-20 ">
+      <section class="my-20">
         <h3 class="bebas-neue-regular text-5xl text-[#363958]">Woman Jacket</h3>
 
         <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -110,10 +129,8 @@
         <!-- ----------------------jacket card container--------------------- -->
 
         <!-- -------------------------------jacket card-1 --------------------------------->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-          
-          
-            <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl shadow-xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl shadow-xl">
             <img
               class="p-5 rounded-3xl bg-[#F1F1F1]"
               src="images/jacket-1.png"
@@ -167,8 +184,7 @@
             </p>
             <div class="">
               <h2 class="text-lg font-semibold mt-2">Women's Jacket 2</h2>
-              <div class="flex justify-between
-">
+              <div class="flex justify-between">
                 <p class="text-[#FABE4C] text-4xl">$99.99</p>
                 <button
                   class="bg-green-300 text-white font-medium py-4 px-8 rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
@@ -203,10 +219,10 @@
               alt=""
             />
             <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+            <!-- <span> Lorem Ipsum is simply dummy text of the </span>
+            <span> printing and typesetting industry.</span> -->
+            
+            
             <div class="">
               <h2 class="text-lg font-semibold mt-2">Women's Jacket 3</h2>
               <div class="flex justify-between">
@@ -237,10 +253,9 @@
         </div>
       </section>
 
-
       <!-- --------------------Men section jacket---------------->
 
-     <section class="my-20 ">
+      <section class="my-20">
         <h3 class="bebas-neue-regular text-5xl text-[#363958]">Men Jacket</h3>
 
         <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -265,9 +280,7 @@
 
         <!-- -------------------------------jacket card-1 --------------------------------->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          
-          
-            <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl shadow-xl">
+          <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl shadow-xl">
             <img
               class="p-5 rounded-3xl bg-[#F1F1F1]"
               src="images/jacket-4.png"
@@ -321,8 +334,7 @@
             </p>
             <div class="">
               <h2 class="text-lg font-semibold mt-2">men's Jacket 2</h2>
-              <div class="flex justify-between
-">
+              <div class="flex justify-between">
                 <p class="text-[#FABE4C] text-4xl">$99.99</p>
                 <button
                   class="bg-green-300 text-white font-medium py-4 px-8 rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
@@ -390,47 +402,49 @@
           </div>
         </div>
       </section>
-
-
-
     </main>
 
     <footer>
-        <div class="grid grid-cols-2 gap-8 max-w-7xl mx-auto px-4 py-20">
-            <div class="bg-[#FFFFFF] ">
-                <div class="flex w-4/5 shadow ">
-                    <div class="px-3"><img src="icons/house.png" alt=""></div>
-                    <div class="px-3 my-auto">
-                        <h1 class="text-2xl font-bold  text-[#363958]">Find the Perfect Fit</h1>
-                        <p>Everybody is different, which is why we offer styles for every body.</p>
-                    
-                    </div>
-                </div>
-                <div class="flex w-4/5 shadow  my-7 ">
-                    <div class="px-3"><img src="icons/box.png" alt=""></div>
-                    <div class="px-3 my-auto">
-                        <h1 class="text-[#363958] text-2xl font-bold">Free Exchanges</h1>
-                        <p>One of the many reasons you can shop with peace of mind.</p>
-                    
-                    </div>
-                </div>
-                <div class="flex w-4/5 ">
-                    <div class="px-3"><img src="icons/question.png" alt=""></div>
-                    <div class="px-3 my-auto">
-                        <h1 class="text-[#363958] text-2xl font-bold">Contact Our Seller</h1>
-                        <p>They are here to help you. That's quite literally what we pay them for.</p>
-                    
-                    </div>
-                </div>
-
+      <div class="grid grid-cols-2 gap-8 max-w-7xl mx-auto px-4 py-20">
+        <div class="bg-[#FFFFFF]">
+          <div class="flex w-4/5 shadow">
+            <div class="px-3"><img src="icons/house.png" alt="" /></div>
+            <div class="px-3 my-auto">
+              <h1 class="text-2xl font-bold text-[#363958]">
+                Find the Perfect Fit
+              </h1>
+              <p>
+                Everybody is different, which is why we offer styles for every
+                body.
+              </p>
             </div>
-
-            <img src="images/shopping.png" alt="">
-
+          </div>
+          <div class="flex w-4/5 shadow my-7">
+            <div class="px-3"><img src="icons/box.png" alt="" /></div>
+            <div class="px-3 my-auto">
+              <h1 class="text-[#363958] text-2xl font-bold">Free Exchanges</h1>
+              <p>One of the many reasons you can shop with peace of mind.</p>
+            </div>
+          </div>
+          <div class="flex w-4/5">
+            <div class="px-3"><img src="icons/question.png" alt="" /></div>
+            <div class="px-3 my-auto">
+              <h1 class="text-[#363958] text-2xl font-bold">
+                Contact Our Seller
+              </h1>
+              <p>
+                They are here to help you. That's quite literally what we pay
+                them for.
+              </p>
+            </div>
+          </div>
         </div>
 
+        <img src="images/shopping.png" alt="" />
+      </div>
     </footer>
 
+  
     <!------------------footer end--------------------------->
   </body>
 </html>
